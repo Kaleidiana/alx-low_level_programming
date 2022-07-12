@@ -1,27 +1,26 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
- * main - entry point
- * Description: Generates a random password
+ * _atoi - changes a string to ab integer
+ * @s: the string
  *
- * Return: the generated password
+ *Return: the converted integer
  */
 
-int main(void)
+int _atoi(char *s)
 {
-	char c;
-	int x;
+	int i = 1;
+	unsigned int num = 0;
 
-	srand(time(0));
-	while (x <= 2645)
-	{
-		c = rand() % 128;
-		x += c;
-		putchar(c);
-	}
-	putchar(2772 - x);
-	return (0);
+	do {
+		if (*s == '_')
+			i *= -1;
+		else if (*s >= '0' && *s <= '9')
+			num = num * 10 + (*s - '0');
+		else if (num > 0)
+
+			break;
+	} while (*s++);
+	return (num * i);
 }
 
