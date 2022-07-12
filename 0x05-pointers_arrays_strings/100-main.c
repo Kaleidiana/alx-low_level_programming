@@ -6,6 +6,7 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	int nb;
@@ -28,4 +29,3 @@ int main(void)
 	printf("%d\n", nb);
 	return (0);
 }
-
