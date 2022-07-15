@@ -1,1 +1,2 @@
-# First Sprint in ALX SOFTWARE ENGINEERING PROGRAM
+Write a function that concatenates two strings.
+
