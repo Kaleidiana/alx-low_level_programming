@@ -1,7 +1,7 @@
-include "main.h"
+#include "main.h"
 
 /**
- * wildcmp - compare if two strings are identica
+ * wildcmp - compare if two strings are identical
  * @s1: string one
  * @s2: string two
  * Return: one if s1 equal to s2, zero otherwise
