@@ -26,3 +26,20 @@ int compare_chars(char *s, int i, int j)
 	return (1);
 }
 
+/**
+ * is_palindrome - checks if a str is palindrome
+ * @s: str to be checked
+ * Return: 1 if str is palindrome, 0 otherwise
+ */
+
+int is_palindrome(char *s)
+{
+	int len = strlen(s);
+
+	if (len == 0)
+	{
+		return (1);
+	}
+	return (compare_chars(s, 0, len - 1));
+}
+
