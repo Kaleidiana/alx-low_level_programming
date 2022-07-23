@@ -41,8 +41,14 @@ int main(int argc, char *argv[])
 			value -= 2;
 			num_of_coins++;
 		}
+		while (value >= 1)
+		{
+			value--;
+			num_of_coins++;
+		}
 		printf("%d\n", num_of_coins);
 	}
 	return (0);
 }
+
 
