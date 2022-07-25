@@ -8,7 +8,7 @@
  * Return: pointer with the new space in memory
  */
 
-char *_srtdup(char *str)
+char *_strdup(char *str)
 {
 	char *arr;
 	int i;
