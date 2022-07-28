@@ -2,9 +2,9 @@
 
 /**
  * array_range - creates an array of integers
- * @main: inferior limit
+ * @min: inferior limit
  * @max: superior limit
- * Reurn: pointer to the array
+ * Return: pointer to the array
  */
 
 int *array_range(int min, int max)
