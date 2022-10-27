@@ -1,4 +1,4 @@
-#include "hash_tables.h"
+#include "./hash_tables.h"
 
 /**
  * hash_table_print - Prints a hash table.
@@ -35,5 +35,5 @@ void hash_table_print(const hash_table_t *ht)
 			comma_flag = 1;
 		}
 	}
-	printf("}\n");
+	printf("}\n")
 }
